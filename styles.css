@@ -6,7 +6,8 @@ body {
   color: #242424;
 }
 a {
-  color: #d25b4b;
+  color: #242424;
+  text-decoration: underline;
 }
 .title {
   margin-top: 20px;
@@ -23,15 +24,18 @@ a {
 .first{
   margin-top: 100px;
 }
+@media (min-width: 992px) {
+  .image img{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+  .image img:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+  }
+}
 .image img{
   width: 100%;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-}
-.image img:hover {
-  opacity: 1;
-  -webkit-filter: grayscale(0%);
-  filter: grayscale(100%);
 }
 .content .text h2 {
   margin-top: 70px;
