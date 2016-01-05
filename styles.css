@@ -2,7 +2,7 @@ body {
   /*background-color: #d25b4b;*/
   background-color: #D4F2F3;
   border-top: 50px solid #FCF6DD;
-  font-family: Nunito;
+  /*font-family: Nunito;*/
   color: #242424;
 }
 a {
@@ -48,8 +48,8 @@ h1 {
 .content .text p {
   margin: 0 50px 70px 50px;
   margin-top: 30px;
-  font-size: 1.3em;
-  font-weight: 100;
+  font-size: 1.5em;
+  font-weight: 300;
 }
 .content .label {
   background-color: transparent;
