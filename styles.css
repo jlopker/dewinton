@@ -51,6 +51,9 @@ h1 {
 .content.people p {
   margin: 20px 50px 10px 50px;
 }
+.people .image {
+  padding: 0;
+}
 .content .label {
   background-color: transparent;
   border-radius: 0;
