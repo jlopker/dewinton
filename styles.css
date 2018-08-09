@@ -21,7 +21,7 @@ h1 {
 .content {
   margin: 0;
 }
-.content .col-md-6, .content .col-sm-6, .content .col-md-3 {
+.content .col-md-6, .content .col-sm-6, .content .col-md-3, .content .col-xs-4 {
   padding: 0;
 }
 .first{
